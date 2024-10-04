@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import { FaStar } from "react-icons/fa6"
 
 import "./index.css"
-
+//i
 function BookCard(props) {
     const { details } = props
     const { id, title, author, rating, img_url } = details
