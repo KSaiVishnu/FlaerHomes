@@ -19,7 +19,7 @@ function BookDetails(props) {
 
     const addBookToLibrary=()=>{
         addBook(filtered_book)      
-        navigate('/mylibrary')
+        navigate('/FlaerHomes/mylibrary')
     }
 
     return (

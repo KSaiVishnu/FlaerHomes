@@ -243,9 +243,9 @@ function App() {
         <BrowserRouter>
           <Navbar />
           <Routes>
-            <Route path='/' element={<HomePage total_books={total_books} />} />
-            <Route path='/bookdetails/:id' element={<BookDetails total_books={total_books} />} />
-            <Route path='/mylibrary' element={<MyLibrary />} />
+            <Route path='/FlaerHomes' element={<HomePage total_books={total_books} />} />
+            <Route path='/FlaerHomes/bookdetails/:id' element={<BookDetails total_books={total_books} />} />
+            <Route path='/FlaerHomes/mylibrary' element={<MyLibrary />} />
           </Routes>
         </BrowserRouter>
       </div>

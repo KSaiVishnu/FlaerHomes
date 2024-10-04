@@ -10,7 +10,7 @@ function BookCard(props) {
     const { id, title, author, rating, img_url } = details
     return (
         <div className='img-container'>
-            <Link to={`/bookdetails/${id}`} className='custom'>
+            <Link to={`/FlaerHomes/bookdetails/${id}`} className='custom'>
                 <div className='details-container'>
                     <img className='img' src={img_url} alt="title" />
                     <h3 className='title'>{title}</h3>

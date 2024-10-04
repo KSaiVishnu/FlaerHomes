@@ -18,7 +18,7 @@ function MyLibrary() {
   const navigate=useNavigate()
 
   const redirect=()=>{
-    navigate('/')
+    navigate('/FlaerHomes')
   }
 
   return (
