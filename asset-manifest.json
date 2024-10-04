@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/FlearHomes/static/css/main.17032282.css",
+    "main.js": "/FlearHomes/static/js/main.9f2254ea.js",
+    "static/js/453.419a5d54.chunk.js": "/FlearHomes/static/js/453.419a5d54.chunk.js",
+    "index.html": "/FlearHomes/index.html",
+    "main.17032282.css.map": "/FlearHomes/static/css/main.17032282.css.map",
+    "main.9f2254ea.js.map": "/FlearHomes/static/js/main.9f2254ea.js.map",
+    "453.419a5d54.chunk.js.map": "/FlearHomes/static/js/453.419a5d54.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.17032282.css",
+    "static/js/main.9f2254ea.js"
+  ]
+}
