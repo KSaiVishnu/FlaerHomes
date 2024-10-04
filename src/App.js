@@ -1,5 +1,4 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
-
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar'
 import HomePage from './components/HomePage'
 import BookDetails from './components/BookDetails'
@@ -240,14 +239,14 @@ function App() {
   return (
     <LibraryContext.Provider value={{libraryBooks,addBook,removeBook}}>
       <div className="App">
-        <BrowserRouter>
+        <Router>
           <Navbar />
           <Routes>
             <Route path='/FlaerHomes' element={<HomePage total_books={total_books} />} />
             <Route path='/FlaerHomes/bookdetails/:id' element={<BookDetails total_books={total_books} />} />
             <Route path='/FlaerHomes/mylibrary' element={<MyLibrary />} />
           </Routes>
-        </BrowserRouter>
+        </Router>
       </div>
     </LibraryContext.Provider>
   );

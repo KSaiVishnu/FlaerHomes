@@ -19,7 +19,7 @@ function LibraryBookCard(props) {
 
     return (
         <div className='img-container1'>
-            <Link to={`/bookdetails/${id}`} className='custom'>
+            <Link to={`/FlaerHomes/bookdetails/${id}`} className='custom'>
                 <div className='details-container1'>
                     <img className='img' src={img_url} alt="title" />
                     <h3 className='title'>{title}</h3>
