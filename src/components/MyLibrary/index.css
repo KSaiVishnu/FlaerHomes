@@ -1,0 +1,9 @@
+.library-title{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.library-list{
+    display: flex;
+    flex-wrap: wrap;
+}

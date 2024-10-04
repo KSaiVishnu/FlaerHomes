@@ -1,0 +1,35 @@
+.input-contanier{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: center;
+}
+.input{
+    height: 50px;
+    width: 300px;
+    margin-right: 20px;
+    border-radius: 10px;
+    border: 1.5px solid black;
+}
+
+.select{
+    height: 54px;
+    width: 130px;
+    padding-left: 20px;
+    border-radius: 10px;
+    border: 1.5px solid black;
+}
+
+
+@media screen and (max-width:767px) {
+    .input{
+        width: 60%;
+    }
+    .select{
+        width: 30%;
+    }
+    .input-contanier{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

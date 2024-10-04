@@ -1,0 +1,22 @@
+.no-results-main-container{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.no-results-img{
+    margin-top: 20px;
+    height: 230px;
+}
+.no-results-para{
+    font-size: 20px;
+}
+.try-again{
+    border: 1px solid gray;
+    height: 42px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(72, 69, 216);
+    color: white;
+}
